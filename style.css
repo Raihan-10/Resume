@@ -1,0 +1,146 @@
+body {
+    background-color: #b3e4fa;
+}
+
+.navImage {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: 50px;
+}
+
+.navbar-nav {
+    font-size: 19px;
+}
+
+
+.textHome {
+    font-size: 190%;
+    margin-top: 100px;
+}
+
+.profilePic {
+    height: 250px;
+    width: 400px;
+    border-radius: 50%;
+    margin-top: 100px;
+    float: right;
+    margin-right: 100px;
+
+}
+
+.profilePic:hover {
+    transform: scale(1.2);
+    border-radius: 10px;
+    transition: all 500ms;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+}
+
+@media(max-width:991.98px) {
+    .imgCenter {
+        display: flex;
+        justify-content: center;
+    }
+
+    .profilePic {
+        margin-right: -50px;
+    }
+
+    .home {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .textHome {
+        margin-bottom: 100px;
+    }
+
+    .skillsText {
+        margin-top: 100px;
+    }
+
+
+}
+
+
+.skillsText {
+    margin-bottom: 100px;
+}
+
+.bmi,
+.blogging,
+.eCom {
+    height: 200px;
+    width: 200px;
+}
+
+.textHome,
+.contactBtn {
+    margin-left: 150px;
+}
+
+
+.textHome,
+.profilePic {
+    margin-top: 250px;
+}
+
+#About,
+#Skills,
+#Project,
+#Contact {
+    padding: 7% 7%;
+    margin-top: 0;
+}
+
+.feature-box {
+    padding: 4.5%;
+
+}
+
+.aboutText,
+.projectText,
+.cText {
+    font-weight: 450;
+    font-size: 20px;
+}
+
+#footer {
+    background-color: #00b3ff;
+    padding: 2%;
+}
+
+.social-icon {
+    color: black;
+    margin: 25px 20px;
+
+}
+
+.social-icon:hover {
+    color: #fff;
+}
+
+h1:hover {
+    color: white;
+    text-shadow: 1px 1px 5px red;
+}
+
+#Home:hover {
+    .textHome {
+        transform: scale(1.2);
+        transition: all 900ms;
+        margin-bottom: 100px;
+        justify-content: center;
+    }
+}
+
+.cText {
+    margin: 2px 100px;
+}
+
+.marquee {
+    color: white;
+}
